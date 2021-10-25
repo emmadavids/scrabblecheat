@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head> <title>scrabble cheat</title>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link href="/static/styles.css" rel="stylesheet">
+            </head>
+        <body>
+
+{% block title %}
+
+<img src="static/cat.jpg" height=45% width=30% class="center">
+
+{% endblock %}
+
+   {% block main %}
+<div class="centered">
+
+    <br><br><b> Enter some letters to cheat at scrabble with</b>
+    <br><br>
+    <form action="/" method="post" class="form-style-3">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="tiles" placeholder="letters" type="text">
+
+        </div>
+        <button class="button4" type="submit" style="background-color:#f14ebd">enter</button>
+
+    </form></div><br>
+{% endblock %}
+</body>
+</html>
